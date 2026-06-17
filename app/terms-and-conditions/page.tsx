@@ -55,7 +55,7 @@ export default function TermsAndConditions() {
         sections={sections}
       >
         <p>
-          These Terms and Conditions ("Terms") govern your access to and use of the IPTVMine Pro application ("App") and website ("Site") operated by IPTVMine Pro ("we", "us", or "our"). By downloading, installing, or using the App or Site, you agree to be bound by these Terms.
+          These Terms and Conditions (&ldquo;Terms&rdquo;) govern your access to and use of the IPTVMine Pro application (&ldquo;App&rdquo;) and website (&ldquo;Site&rdquo;) operated by IPTVMine Pro (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). By downloading, installing, or using the App or Site, you agree to be bound by these Terms.
         </p>
         <p>
           If you do not agree with any part of these Terms, you must not use IPTVMine Pro.
@@ -103,7 +103,7 @@ export default function TermsAndConditions() {
         <ul>
           <li><strong style={{ color: "#fff" }}>Legal compliance:</strong> Ensuring that your use of the App complies with the copyright, broadcasting, and streaming laws of your country or region. Streaming content without proper authorization may be illegal in your jurisdiction.</li>
           <li><strong style={{ color: "#fff" }}>Provider content:</strong> The M3U playlist URLs and Vega extension sources you add to the App. IPTVMine Pro does not endorse, curate, or take responsibility for the content delivered by third-party providers.</li>
-          <li><strong style={{ color: "#fff" }}>Device security:</strong> Maintaining the security of your device and the App's locally stored configuration data.</li>
+          <li><strong style={{ color: "#fff" }}>Device security:</strong> Maintaining the security of your device and the App&apos;s locally stored configuration data.</li>
           <li><strong style={{ color: "#fff" }}>Extensions:</strong> Any extensions you install. Third-party extensions are not developed or vetted by IPTVMine Pro.</li>
         </ul>
         <p>
@@ -119,12 +119,12 @@ export default function TermsAndConditions() {
           <li>We are not responsible for the accuracy, legality, or quality of content from third-party providers.</li>
           <li>Third-party content providers are subject to their own terms of service and privacy policies.</li>
           <li>Links to external websites do not constitute endorsement of those sites or their content.</li>
-          <li>Metadata (e.g. movie descriptions, posters) may be sourced from public databases such as TMDb and is provided under those platforms' respective terms.</li>
+          <li>Metadata (e.g. movie descriptions, posters) may be sourced from public databases such as TMDb and is provided under those platforms&apos; respective terms.</li>
         </ul>
 
         <h2 id="service-availability">Service Availability</h2>
         <p>
-          IPTVMine Pro is provided on an "as-is" and "as-available" basis. We do not guarantee:
+          IPTVMine Pro is provided on an &ldquo;as-is&rdquo; and &ldquo;as-available&rdquo; basis. We do not guarantee:
         </p>
         <ul>
           <li>Continuous, uninterrupted access to the App or website.</li>
@@ -166,8 +166,8 @@ export default function TermsAndConditions() {
           We reserve the right to modify these Terms at any time. Changes will be:
         </p>
         <ul>
-          <li>Posted on this page with an updated "Last Updated" date.</li>
-          <li>Announced in the App's release notes for significant changes.</li>
+          <li>Posted on this page with an updated &ldquo;Last Updated&rdquo; date.</li>
+          <li>Announced in the App&apos;s release notes for significant changes.</li>
         </ul>
         <p>
           Your continued use of IPTVMine Pro after changes are posted constitutes your acceptance of the revised Terms. If you do not agree to the updated Terms, you must stop using the App.
