@@ -138,9 +138,24 @@ export default function Footer() {
             © {year} IPTVMine Pro. All rights reserved.
           </p>
           <p style={{ color: "var(--text-faint)", fontSize: "0.8rem", margin: 0 }}>
-            Developed by <span style={{ color: "var(--text-dim)", fontWeight: 600 }}>Vighnya</span>
+            Developed by{" "}
+            <a 
+              href="https://github.com/vighnya777" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              style={{ color: "var(--text-dim)", fontWeight: 600, textDecoration: "none" }}
+            >
+              Vighnya
+            </a>
             {" "}&amp;{" "}
-            <span style={{ color: "var(--text-dim)", fontWeight: 600 }}>Samyak</span>
+            <a 
+              href="https://github.com/samyak2403" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              style={{ color: "var(--text-dim)", fontWeight: 600, textDecoration: "none" }}
+            >
+              Samyak
+            </a>
           </p>
         </div>
 
