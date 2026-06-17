@@ -62,7 +62,7 @@ export default function LegalPage({
           style={{
             display: "inline-block",
             background: "rgba(0,201,177,0.12)",
-            color: "#00C9B1",
+            color: "var(--teal)",
             border: "1px solid rgba(0,201,177,0.25)",
             borderRadius: 100,
             fontSize: "0.78rem",
@@ -87,7 +87,7 @@ export default function LegalPage({
         >
           {title}
         </h1>
-        <p style={{ color: "#7A8499", fontSize: "1.05rem", margin: "0 0 1rem" }}>
+        <p style={{ color: "var(--text-dim)", fontSize: "1.05rem", margin: "0 0 1rem" }}>
           {subtitle}
         </p>
         <span
@@ -98,7 +98,7 @@ export default function LegalPage({
             borderRadius: 6,
             padding: "0.3rem 0.9rem",
             fontSize: "0.8rem",
-            color: "#5A6478",
+            color: "var(--text-faint)",
           }}
         >
           Last updated: {lastUpdated}
@@ -132,7 +132,7 @@ export default function LegalPage({
         >
           <p
             style={{
-              color: "#4A5568",
+              color: "var(--text-faint)",
               fontSize: "0.72rem",
               fontWeight: 700,
               letterSpacing: "0.1em",
@@ -153,12 +153,12 @@ export default function LegalPage({
                   borderRadius: 7,
                   fontSize: "0.82rem",
                   lineHeight: 1.5,
-                  color: activeId === id ? "#00C9B1" : "#5A6478",
+                  color: activeId === id ? "var(--teal)" : "var(--text-faint)",
                   background:
                     activeId === id ? "rgba(0,201,177,0.08)" : "transparent",
                   borderLeft:
                     activeId === id
-                      ? "2px solid #00C9B1"
+                      ? "2px solid var(--teal)"
                       : "2px solid transparent",
                   textDecoration: "none",
                   transition: "all 0.2s",
