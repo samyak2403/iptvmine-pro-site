@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
           This Privacy Policy describes how <strong style={{ color: "#fff" }}>IPTVMine Pro</strong> ("we", "us", or "our") handles information when you use our Android application and website. By using IPTVMine Pro, you agree to the practices described in this policy.
         </p>
         <p>
-          <strong style={{ color: "#00C9B1" }}>We do not sell your personal data.</strong> We are committed to transparency about what limited information we interact with and how it stays under your control.
+          <strong style={{ color: "var(--teal)" }}>We do not sell your personal data.</strong> We are committed to transparency about what limited information we interact with and how it stays under your control.
         </p>
 
         <h2 id="information-we-collect">Information We Collect</h2>
