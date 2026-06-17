@@ -54,7 +54,7 @@ export default function Disclaimer() {
         sections={sections}
       >
         <p>
-          Please read this Disclaimer carefully before using the IPTVMine Pro application ("App") or website ("Site"). By using IPTVMine Pro, you acknowledge that you have read, understood, and agree to the terms of this Disclaimer.
+          Please read this Disclaimer carefully before using the IPTVMine Pro application (&ldquo;App&rdquo;) or website (&ldquo;Site&rdquo;). By using IPTVMine Pro, you acknowledge that you have read, understood, and agree to the terms of this Disclaimer.
         </p>
 
         {/* Key callout */}
@@ -118,7 +118,7 @@ export default function Disclaimer() {
         </p>
         <ul>
           <li><strong style={{ color: "#fff" }}>We do not own any content.</strong> All movies, TV shows, live TV channels, sports streams, series, actors, cast information, images, posters, and related metadata belong to their respective copyright holders.</li>
-          <li><strong style={{ color: "#fff" }}>We do not host any content.</strong> No video files, stream data, or media are stored on IPTVMine Pro servers. All media is served directly from the user's configured third-party providers.</li>
+          <li><strong style={{ color: "#fff" }}>We do not host any content.</strong> No video files, stream data, or media are stored on IPTVMine Pro servers. All media is served directly from the user&apos;s configured third-party providers.</li>
           <li><strong style={{ color: "#fff" }}>We are not responsible for third-party content.</strong> The legality, accuracy, quality, and availability of content provided by third-party sources (M3U playlists, Vega extensions, metadata APIs) is the sole responsibility of those sources.</li>
           <li><strong style={{ color: "#fff" }}>User responsibility.</strong> Users are responsible for ensuring that the third-party content they access through the App is legally authorized in their jurisdiction.</li>
           <li>Copyright holders and rights owners who believe their content is being accessed unlawfully through third-party providers should contact those providers directly, as IPTVMine Pro has no control over third-party content.</li>
