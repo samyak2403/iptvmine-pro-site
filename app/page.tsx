@@ -176,7 +176,7 @@ export default function Home() {
               <p style={{ color: "var(--text-dim)", fontSize: "0.9rem", lineHeight: 1.7, marginBottom: "1.75rem" }}>
                 The full mobile experience — Live TV, Movies, Series, global search, and extension management, optimized for touch.
               </p>
-              <a href="/downloads/IPTVMinePro.apk" download style={{
+              <a href="/downloads/IPTVMinePro.zip" download style={{
                 display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8, width: "100%",
                 background: "linear-gradient(135deg, #00E5C7, #00A896)", color: "#07080B",
                 padding: "0.9rem 1.5rem", borderRadius: 12, fontWeight: 600,
