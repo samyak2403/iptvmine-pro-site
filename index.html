@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPTVMine Pro – Premium Live TV & VOD Player for Android & TV</title>
+  <meta name="description" content="Download IPTVMine Pro APK. The ultimate open-source streaming companion for Android and Android TV. Access your M3U playlists, movies, and TV shows with zero restrictions.">
+  <meta name="keywords" content="IPTVMine, IPTVMine Pro, IPTV app, Live TV APK, Android TV player, Indian TV Channels, open source IPTV, Vega scrapers, video streaming APK">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Icons -->
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo" id="header-logo-link">
+        <img src="assets/images/logo.png" alt="IPTVMine Pro Logo" class="logo-img">
+        <span>IPTVMine Pro</span>
+      </a>
+      
+      <nav>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="index.html" class="active" id="nav-home" data-i18n="nav-home">Home</a></li>
+          <li><a href="download.html" id="nav-download" data-i18n="nav-download">Download</a></li>
+          <li><a href="#install-guide" id="nav-guide" data-i18n="nav-guide">Install Guide</a></li>
+          <li><a href="https://github.com/samyak2403/IPTVMine-Pro" target="_blank" rel="noopener noreferrer" id="nav-github" data-i18n="nav-github">GitHub</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-actions">
+        <!-- Language Switcher -->
+        <div class="lang-dropdown">
+          <button class="lang-btn" id="lang-select-button" aria-haspopup="true">
+            <span>🇺🇸 <span style="margin-left: 4px;">English</span></span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="lang-list" role="menu">
+            <button class="lang-item active" role="menuitem"><span>🇺🇸</span><span>English</span></button>
+            <button class="lang-item" role="menuitem"><span>🇮🇳</span><span>हिन्दी</span></button>
+            <button class="lang-item" role="menuitem"><span>🇮🇳</span><span>मराठी</span></button>
+            <button class="lang-item" role="menuitem"><span>🇮🇳</span><span>বাংলা</span></button>
+            <button class="lang-item" role="menuitem"><span>🇮🇳</span><span>தமிழ்</span></button>
+            <button class="lang-item" role="menuitem"><span>🇮🇳</span><span>తెలుగు</span></button>
+            <button class="lang-item" role="menuitem"><span>🇮🇩</span><span>Bahasa</span></button>
+          </div>
+        </div>
+      </div>
+      
+      <button class="menu-btn" aria-label="Toggle Navigation Menu" aria-expanded="false" id="mobile-menu-btn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container hero-content">
+      <div class="hero-logo-container">
+        <img src="assets/images/logo.png" alt="IPTVMine Pro App Icon" class="hero-logo">
+      </div>
+      <h1 id="hero-title" data-i18n="hero-title">Download IPTVMine Pro</h1>
+      <p id="hero-desc" data-i18n="hero-desc">The ultimate open-source streaming companion for Android and Android TV. Access your M3U playlists, movies, and TV shows with zero restrictions, zero fees, and no ad clutter.</p>
+      
+      <div class="hero-actions">
+        <a href="download.html" class="btn btn-primary" id="hero-cta-download">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+          <span data-i18n="hero-cta-download">Download IPTVMine Pro APK</span>
+        </a>
+        <a href="#install-guide" class="btn btn-secondary" id="hero-cta-tv">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="15" x="2" y="3" rx="2"/><line x1="12" x2="12" y1="18" y2="21"/><line x1="8" x2="16" y1="21" y2="21"/></svg>
+          <span data-i18n="hero-cta-tv">Setup Android TV</span>
+        </a>
+      </div>
+      
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" data-i18n="stat-login-val">No Login</span>
+          <span class="stat-label" data-i18n="stat-login-label">Required</span>
+        </div>
+        <div class="stat-item" style="border-left: 1px solid var(--border); border-right: 1px solid var(--border); padding: 0 40px;">
+          <span class="stat-num">100%</span>
+          <span class="stat-label" data-i18n="stat-source">Open Source</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-i18n="stat-ads-val">Zero</span>
+          <span class="stat-label" data-i18n="stat-ads">Subscription Ads</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3-Step Setup Section -->
+  <section class="section-padding steps-section" id="steps-setup">
+    <div class="container">
+      <div class="section-title-wrap">
+        <h2 class="section-title" data-i18n="steps-title">Install IPTVMine Pro in 3 Easy Steps</h2>
+        <p class="section-desc" data-i18n="steps-desc">Get the app up and running on your Android device in just a few clicks.</p>
+      </div>
+      
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-icon-wrap flex-center">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+          </div>
+          <span class="step-num" data-i18n="step1-num">Step 1</span>
+          <h3 data-i18n="step1-title">Download APK</h3>
+          <p data-i18n="step1-desc">Click the "Download IPTVMine Pro" button to download the latest safe installer APK file to your storage.</p>
+        </div>
+        
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-icon-wrap flex-center">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.1a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <span class="step-num" data-i18n="step2-num">Step 2</span>
+          <h3 data-i18n="step2-title">Allow Unknown Apps</h3>
+          <p data-i18n="step2-desc">Open the downloaded file and click "Install". If prompted, enable "Install from Unknown Sources" in settings.</p>
+        </div>
+        
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-icon-wrap flex-center">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+          </div>
+          <span class="step-num" data-i18n="step3-num">Step 3</span>
+          <h3 data-i18n="step3-title">Launch & Play</h3>
+          <p data-i18n="step3-desc">Open the app, load your playlist, or run JavaScript scrapers (Vega) to fetch HD streams immediately.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section-padding about-section" id="about-info">
+    <div class="container about-row">
+      <div class="about-media">
+        <div class="about-img-container">
+          <div class="about-slider">
+            <div class="about-slides">
+              <img src="assets/images/screenshots/mobile/1.png" alt="IPTVMine Mobile UI - Home Screen" class="slide">
+              <img src="assets/images/screenshots/mobile/2.png" alt="IPTVMine Mobile UI - Provider Setup" class="slide">
+              <img src="assets/images/screenshots/mobile/3.png" alt="IPTVMine Mobile UI - Movie Details" class="slide">
+            </div>
+            <div class="slider-nav">
+              <button class="slider-dot active" aria-label="Slide 1"></button>
+              <button class="slider-dot" aria-label="Slide 2"></button>
+              <button class="slider-dot" aria-label="Slide 3"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-content">
+        <span class="about-tag" data-i18n="about-tag">Open Source IPTV Player</span>
+        <h2 data-i18n="about-title">Your Premium Android Streaming Companion</h2>
+        <p class="about-text" data-i18n="about-text1">Most streaming applications come bundled with trackers, heavy ads, and locking walls. IPTVMine Pro changes the rules: it is completely free, community-driven, and designed for ultimate device optimization.</p>
+        <p class="about-text" data-i18n="about-text2">Built natively using Jetpack Compose, the player delivers rapid channel filtering, responsive movie browsing, and local offline downloads. With the advanced Vega scraper engine, you can aggregate streams safely in a sandboxed execution environment.</p>
+        
+        <ul class="about-bullets">
+          <li><span class="bullet-icon">✦</span> <span data-i18n="about-bullet1">Rapid Playlist Filtering</span></li>
+          <li><span class="bullet-icon">✦</span> <span data-i18n="about-bullet2">Headless Scraper Execution</span></li>
+          <li><span class="bullet-icon">✦</span> <span data-i18n="about-bullet3">ExoPlayer with PiP Support</span></li>
+          <li><span class="bullet-icon">✦</span> <span data-i18n="about-bullet4">Mobile-TV Synchronized Pairing</span></li>
+          <li><span class="bullet-icon">✦</span> <span data-i18n="about-bullet5">Double-Tap seek overlay</span></li>
+          <li><span class="bullet-icon">✦</span> <span data-i18n="about-bullet6">Local Offline Downloads</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Installation Guide Section (Tabbed) -->
+  <section class="section-padding guide-section" id="install-guide">
+    <div class="container">
+      <div class="section-title-wrap">
+        <h2 class="section-title" data-i18n="guide-title">Step-by-Step Installation Manual</h2>
+        <p class="section-desc" data-i18n="guide-desc">Learn how to easily sideload the APK client on either your phone or Android TV.</p>
+      </div>
+      
+      <!-- Tabs Switcher -->
+      <div class="guide-tabs">
+        <button class="tab-btn active" data-tab="tab-mobile" id="btn-tab-mobile">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><line x1="12" x2="12" y1="18" y2="18"/></svg>
+          <span data-i18n="tab-mobile">Android Mobile / Tablet</span>
+        </button>
+        <button class="tab-btn" data-tab="tab-tv" id="btn-tab-tv">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="15" x="2" y="3" rx="2"/><line x1="12" x2="12" y1="18" y2="21"/><line x1="8" x2="16" y1="21" y2="21"/></svg>
+          <span data-i18n="tab-tv">Android TV / FireStick</span>
+        </button>
+      </div>
+      
+      <!-- Mobile Tab Content -->
+      <div class="tab-pane active" id="tab-mobile">
+        <div class="guide-steps-list">
+          <div class="guide-step-row">
+            <div class="guide-step-badge">1</div>
+            <p class="guide-step-text" data-i18n="mstep1">Open the Download page from the top menu and select the Mobile Version APK.</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">2</div>
+            <p class="guide-step-text" data-i18n="mstep2">Tap the Download IPTVMine Pro APK button to start downloading the file.</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">3</div>
+            <p class="guide-step-text" data-i18n="mstep3">Once the download finishes, navigate to your device's Settings > Security & Privacy.</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">4</div>
+            <p class="guide-step-text" data-i18n="mstep4">Enable the option Allow Install from Unknown Sources for your browser or file manager.</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">5</div>
+            <p class="guide-step-text" data-i18n="mstep5">Locate the downloaded APK in your Downloads folder and tap it, then select Install.</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">6</div>
+            <p class="guide-step-text" data-i18n="mstep6">Open IPTVMine Pro, import your M3U playlist file, and start streaming TV channels immediately!</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- TV Tab Content -->
+      <div class="tab-pane" id="tab-tv">
+        <div class="guide-steps-list">
+          <div class="guide-step-row">
+            <div class="guide-step-badge">1</div>
+            <p class="guide-step-text" data-i18n="tstep1">Go to the Download page and download the dedicated Android TV Client APK.</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">2</div>
+            <p class="guide-step-text" data-i18n="tstep2">Transfer the downloaded APK to your TV using a USB flash drive, or via local Wi-Fi casting (e.g., using the "Send Files to TV" app).</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">3</div>
+            <p class="guide-step-text" data-i18n="tstep3">On your Android TV, open the file explorer app, locate the APK file, and click it.</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">4</div>
+            <p class="guide-step-text" data-i18n="tstep4">If prompted, grant the file explorer permission to install files from unknown sources in TV developer options.</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">5</div>
+            <p class="guide-step-text" data-i18n="tstep5">Select Install. Once completed, launch the TV app from your dashboard.</p>
+          </div>
+          <div class="guide-step-row">
+            <div class="guide-step-badge">6</div>
+            <p class="guide-step-text" data-i18n="tstep6">Open the pairing menu, scan the QR code using your phone's IPTVMine app, and synchronize your playlists and watch history instantly!</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Interactive Playlist Preview Section -->
+  <section class="section-padding movies-section" id="movies-preview">
+    <div class="container">
+      <div class="section-title-wrap">
+        <h2 class="section-title" data-i18n="movies-title">Explore M3U VOD Content</h2>
+        <p class="section-desc" data-i18n="movies-desc">Search and preview millions of movies and TV shows supported for instant streaming in IPTVMine Pro.</p>
+      </div>
+    </div>
+    
+    <!-- 6 Marquee Showcase Rows -->
+    <div class="marquee-showcase-container">
+      <!-- Row 1: Left to Right -->
+      <div class="marquee-row-wrapper scroll-right-dir">
+        <div class="marquee-track" id="track-row-1">
+          <div class="movie-loader flex-center"><div class="loader-spinner"></div></div>
+        </div>
+      </div>
+      
+      <!-- Row 2: Right to Left -->
+      <div class="marquee-row-wrapper scroll-left-dir">
+        <div class="marquee-track" id="track-row-2">
+          <div class="movie-loader flex-center"><div class="loader-spinner"></div></div>
+        </div>
+      </div>
+      
+      <!-- Row 3: Left to Right -->
+      <div class="marquee-row-wrapper scroll-right-dir">
+        <div class="marquee-track" id="track-row-3">
+          <div class="movie-loader flex-center"><div class="loader-spinner"></div></div>
+        </div>
+      </div>
+      
+      <!-- Row 4: Right to Left -->
+      <div class="marquee-row-wrapper scroll-left-dir">
+        <div class="marquee-track" id="track-row-4">
+          <div class="movie-loader flex-center"><div class="loader-spinner"></div></div>
+        </div>
+      </div>
+      
+      <!-- Row 5: Left to Right -->
+      <div class="marquee-row-wrapper scroll-right-dir">
+        <div class="marquee-track" id="track-row-5">
+          <div class="movie-loader flex-center"><div class="loader-spinner"></div></div>
+        </div>
+      </div>
+      
+      <!-- Row 6: Right to Left -->
+      <div class="marquee-row-wrapper scroll-left-dir">
+        <div class="marquee-track" id="track-row-6">
+          <div class="movie-loader flex-center"><div class="loader-spinner"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Grid Section -->
+  <section class="section-padding features-section" id="features-highlights">
+    <div class="container">
+      <div class="section-title-wrap">
+        <h2 class="section-title" data-i18n="features-title">Core Performance Features</h2>
+        <p class="section-desc" data-i18n="features-desc">A streaming experience engineered for speed, utility, and user privacy protection.</p>
+      </div>
+      
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">✦</div>
+          <h3 data-i18n="feat1-title">No Limits</h3>
+          <p data-i18n="feat1-desc">Stream live TV, sports news, and movies without volume throttles, session limits, or hidden subscription gates. You are in complete control.</p>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">✦</div>
+          <h3 data-i18n="feat2-title">Completely Free</h3>
+          <p data-i18n="feat2-desc">The code is fully open source. There are no registration forms, no subscription fees, no locked channels, and zero in-app purchases.</p>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon">✦</div>
+          <h3 data-i18n="feat3-title">High Speed ExoPlayer</h3>
+          <p data-i18n="feat3-desc">Utilizes custom AndroidX Media3 streaming wrappers to buffer HLS / M3U8 video streams fast, with double-tap gesture seek overlays.</p>
+        </div>
+        
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon">✦</div>
+          <h3 data-i18n="feat4-title">Android TV Leanback</h3>
+          <p data-i18n="feat4-desc">Includes a custom TV app dashboard optimized for remote controls (D-pads), built-in network speed tests, and localized weather forecasts.</p>
+        </div>
+        
+        <!-- Feature 5 -->
+        <div class="feature-card">
+          <div class="feature-icon">✦</div>
+          <h3 data-i18n="feat5-title">100% User Privacy</h3>
+          <p data-i18n="feat5-desc">All watch history, bookmarked lists, and settings are saved locally on your hardware. We do not transmit or collect user tracking data.</p>
+        </div>
+        
+        <!-- Feature 6 -->
+        <div class="feature-card">
+          <div class="feature-icon">✦</div>
+          <h3 data-i18n="feat6-title">Vega Extension Support</h3>
+          <p data-i18n="feat6-desc">Import custom JavaScript scrapers securely. Playback links are resolved dynamically with sandboxed execution to protect your device.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <a href="index.html" class="logo" id="footer-logo-link">
+          <img src="assets/images/logo.png" alt="IPTVMine Pro logo" class="logo-img">
+          <span>IPTVMine Pro</span>
+        </a>
+        
+        <ul class="footer-links">
+          <li><a href="privacy.html" id="footer-privacy">Privacy Policy</a></li>
+          <li><a href="terms.html" id="footer-terms">Terms of Service</a></li>
+          <li><a href="download.html" id="footer-download">Downloads</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          Copyright &copy; 2026 IPTVMine Pro. All rights reserved.
+        </div>
+        <div class="footer-contact">
+          <span data-i18n="footer-support">Email Support:</span>
+          <a href="mailto:samyak2403@gmail.com" id="footer-email">samyak2403@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
