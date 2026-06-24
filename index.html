@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    if (window.location.protocol === 'http:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+      window.location.href = window.location.href.replace('http:', 'https:');
+    }
+  </script>
   <title>IPTVMine Pro – Premium Live TV & VOD Player for Android & TV</title>
   <meta name="description" content="Download IPTVMine Pro APK. The ultimate open-source streaming companion for Android and Android TV. Access your M3U playlists, movies, and TV shows with zero restrictions.">
   <meta name="keywords" content="IPTVMine, IPTVMine Pro, IPTV app, Live TV APK, Android TV player, Indian TV Channels, open source IPTV, Vega scrapers, video streaming APK">
